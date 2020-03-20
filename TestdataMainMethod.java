@@ -271,6 +271,12 @@ public class Testdata extends YamlReader {
         System.out.println("\n >>>> &IHUB_TestSection13_RANDOM& : " + Testdata.getValue("&IHUB_INSTRUCTORS.INSTRUCTOR1_RANDOM&"));
         System.out.println("\n >>>> &IHUB_TestSection13_RANDOM& 1212 : " + Testdata.getValue("&INSTRUCTORS.INSTRUCTOR1_RANDOM&"));
         System.out.println("\n >>>> &IHUB_TestSection13_RANDOM& 2121 : " + Testdata.getValue("&INSTRUCTORS.INSTRUCTOR1.USERNAME_RANDOM&"));
+        
+        
+         System.out.println("\n >>>> &IHUB_TestSection13_RANDOM& : " + Testdata.getValue("&IHUB_TestSection13_RANDOM&"));
+        System.out.println("\n >>>> &IHUB_TestSection13_RANDOM& : " + Testdata.getValue("&IHUB_INSTRUCTORS.INSTRUCTOR1_RANDOM&"));
+        System.out.println("\n >>>> &IHUB_TestSection13_RANDOM& 1212 : " + Testdata.getValue("&INSTRUCTORS.INSTRUCTOR1_RANDOM&"));
+        System.out.println("\n >>>> &IHUB_TestSection13_RANDOM& 2121 : " + Testdata.getValue("&INSTRUCTORS.INSTRUCTOR1.USERNAME_RANDOM&"));
 
 //        System.out.println("Get Course Key 1  : " + Testdata.getValue("&SECTIONS.SECTIONNAME_RANDOM&"));
 //        System.out.println("Get Course Key 2 : " + Testdata.getValue("&IHUB_SECTIONS.SECTIONNAME_RANDOM&"));
